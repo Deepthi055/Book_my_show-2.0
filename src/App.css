@@ -1,0 +1,370 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+/* Ensure Bootstrap styles are applied */
+.custom-navbar {
+  width: 100%;
+  padding: 15px 20px; /* Adjust padding */
+}
+
+/* Center navigation items */
+.custom-navbar .nav {
+  display: flex;
+  gap: 15px; /* Space between links */
+}
+
+/* Search box styling */
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-box {
+  width: 250px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+}
+
+.search-btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+/* Make navbar stick to the top */
+.custom-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Add padding to body to prevent content from hiding behind navbar */
+.body-content {
+  padding-top: 80px; /* Adjust based on navbar height */
+}
+.carousel img {
+  height: 500px; /* Adjust height as needed */
+  object-fit: cover; /* Ensures images fit well */
+}
+.carousel img {
+  width: 100%;
+  height: 500px;  /* Adjust height for better quality */
+  object-fit: cover;  /* Ensures images are not stretched */
+  filter: brightness(1.1) contrast(1.1); /* Enhances colors */
+}
+.custom-navbar {
+  width: 100%;
+  background-color: #000; /* Dark theme like BookMyShow */
+  padding: 10px 20px;
+}
+
+.custom-navbar .nav-link {
+  color: white !important;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.custom-navbar .form-control {
+  width: 250px;
+}
+
+.custom-navbar .btn {
+  font-size: 14px;
+}
+.full-width-navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+/* Make the carousel full-width */
+.custom-carousel {
+  width: 100vw; /* Full viewport width */
+  max-height: 400px; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+/* Ensure images scale properly */
+.carousel-img {
+  width: 100%;
+  height: 400px; /* Adjust height for uniformity */
+  object-fit: cover; /* Ensure images cover the entire area */
+}
+
+/* Hide indicators for a cleaner look */
+.carousel-indicators {
+  display: none;
+}
+
+/* Custom Carousel Buttons */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  padding: 10px;
+}
+/* Make the carousel take full width of the screen */
+.custom-carousel {
+  width: 100vw; /* Full viewport width */
+  max-width: 100%; /* Ensure no extra margins */
+  height: 400px; /* Adjust height */
+  overflow: hidden;
+  margin: 0 auto; /* Center align */
+}
+
+/* Ensure images are fully responsive */
+.carousel-img {
+  width: 100%;
+  height: 400px; /* Set a fixed height */
+  object-fit: cover; /* Prevent image distortion */
+}
+
+/* Hide indicators */
+.carousel-indicators {
+  display: none;
+}
+
+/* Custom styles for previous and next buttons */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  padding: 10px;
+}
+/* Centering the Sign-in form */
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #121212;
+}
+
+/* Sign-in Box */
+.signin-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* Input Fields */
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+}
+
+/* Remember Me Checkbox */
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Sign In Button */
+.btn-primary {
+  width: 100%;
+  background-color: #e50914;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #b20710;
+}
+
+/* Sign Up Link */
+.signup-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #e50914;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.toggle-btn:hover {
+  background: #b20710;
+}
+
+/* Background Image Mode */
+.bg-image {
+  background: url("https://source.unsplash.com/1600x900/?movies,cinema") no-repeat center center/cover;
+  color: white;
+  padding: 40px;
+}
+.carousel-container {
+  width: 100%;
+  max-width: 100vw;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 500px; /* Adjust height as needed */
+  object-fit: cover; /* Ensures the image covers the entire area */
+}
+/* Carousel.css */
+.carousel-container {
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 450px; /* Adjust to match BookMyShow */
+  object-fit: cover; /* Ensures proper scaling */
+  border-radius: 10px; /* Optional for smoother edges */
+}
+
+/* Remove default Bootstrap padding */
+.carousel .carousel-inner {
+  margin: 0;
+  padding: 0;
+}
+
+/* Dots and controls */
+.carousel-indicators {
+  bottom: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+/* Full-width carousel container */
+.carousel-container {
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+  margin-bottom: 20px; /* Adds space below the carousel */
+}
+
+/* Make images fit perfectly */
+.carousel-image {
+  width: 100%;
+  height: 450px; /* Adjust as needed */
+  object-fit: cover; /* Ensures image fills the space without distortion */
+  border-radius: 8px; /* Smooth edges */
+}
+
+/* Remove default Bootstrap padding */
+.carousel .carousel-inner {
+  margin: 0;
+  padding: 0;
+}
+
+/* Customize Navigation Arrows */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Reduce width of controls */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* Hide indicators for a cleaner look */
+.carousel-indicators {
+  display: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .carousel-image {
+    height: 300px; /* Smaller height for mobile */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-image {
+    height: 200px; /* Even smaller height for very small screens */
+  }
+}
