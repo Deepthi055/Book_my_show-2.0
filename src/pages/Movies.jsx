@@ -10,7 +10,7 @@ const Movies = () => {
 
   return (
     <div className="container mt-5">
-      <h2 className="text-center mb-4">🎬 Now Showing</h2>
+      <h2 className="now-showing ">🎬 Now Showing</h2>
       <div className="table-responsive">
         <table className="table table-striped table-hover text-center">
           <thead className="table-dark">

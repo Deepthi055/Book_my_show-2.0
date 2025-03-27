@@ -212,7 +212,13 @@ const Home = () => {
 
       {/* Advertisements Section */}
       <div className="container ads-section">
-        <h2 className="section-title">📢 Sponsored Ads</h2>
+      <div className="sponsored-ad">
+  📢 Sponsored Ad
+</div>
+<p className="sponsored-subtext">
+  Advertisements that might interest you.
+</p>
+
         <div className="ads-container">
           <div className="ad-box">Ad 1 - Upcoming Movie</div>
           <div className="ad-box">Ad 2 - Special Offers</div>

@@ -2,9 +2,13 @@ import React from "react";
 
 const Offers = () => {
   return (
-    <div className="container text-center">
-      <h1>🎉 Exclusive Offers & Discounts</h1>
-      <p>Grab the best deals on movie tickets, events, and more!</p>
+    <div className=" text-center">
+     <h2 className="offers-heading">
+  🎉 Exclusive Offers & Discounts
+</h2>
+<p className="offers-subtext">
+  Grab the best deals on movie tickets, events, and more!
+</p>
 
       <div className="row mt-4">
         <div className="col-md-4">

@@ -5,9 +5,13 @@ const Sports = () => {
     
     <div style={{ paddingTop: "80px" }}>
 
-      <h1>🔥 Live Sports Events</h1>
-      <p>Book tickets for the latest sports events happening near you!</p>
-
+<h2 className="sports-heading">
+  🔥 Live Sports Events
+</h2>
+<p className="sports-heading svg 
+">
+  Book tickets for the latest sports events happening near you!
+</p>
       <div className="row mt-4">
         <div className="col-md-4">
           <div className="card">

@@ -35,7 +35,8 @@ const Events = () => {
 
   return (
     <Container className="mt-5">
-      <h2 className="mb-4">Upcoming Events</h2>
+      <h2 className="section-heading {
+">Upcoming Events</h2>
       <Row>
         {events.map((event, index) => (
           <Col key={index} md={4} className="mb-4">

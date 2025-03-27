@@ -51,7 +51,7 @@ import add4 from "../assets/add4.avif";
 
 const MovieCarousel = () => {
   return (
-    <div className="container-fluid p-0">  {/* Ensures full width */}
+    <div style={{ width: "100%", maxWidth: "1200px", height: "400px", margin: "auto" }}>
       <Carousel className="custom-carousel" indicators={false}>
         <Carousel.Item>
           <img className="d-block w-100 carousel-img" src={add1} alt="Ad 1" />
